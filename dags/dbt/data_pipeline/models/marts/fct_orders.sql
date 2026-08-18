@@ -1,4 +1,5 @@
-SELECT 
+SELECT
+-- Fact table for orders, including gross sales and discount amounts from order items
     orders.*,
     order_item_summary.gross_item_sales_amount,
     order_item_summary.item_discount_amount
