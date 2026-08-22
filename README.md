@@ -1,6 +1,7 @@
-# **Project Title**: Automated ELT Pipeline with dbt, Airflow, and Snowflake
+# **Project Title**: 
+## Automated ELT Pipeline with dbt, Airflow, and Snowflake
 
-Description: 
+## Description: 
 An end-to-end ELT pipeline that loads raw TPC-H order data into Snowflake, transforms it through a layered dbt project (staging → intermediate → marts), and orchestrates the whole workflow on an automated schedule using Apache Airflow and Astronomer Cosmos.
 
 ## Overview
